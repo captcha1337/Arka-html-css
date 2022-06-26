@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.header {  
+    width: 100%; 
+    height: 61px;  
+    background: #fff;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    box-shadow: 0 14px 44px rgba(84, 84, 84, 0.25);
+}
+
+.headerLinks {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #011F3A;
+    text-decoration: none;
+}
+
+.headerBlock1 {
+    width: 85px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.headerBlock2 {
+    width: 654.1px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerStartYourDesign {
+    margin-left: 13.5px;
+    text-decoration: underline;
+}
+
+.headerAbout {
+    margin-right: 10.3px;
+}
+
+.headerBlock3 {
+    height: 25px;
+    width: 133px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+
+.startSection {
+    display: flex; 
+    width: 100%;
+    height: 750px;
+    background-color: #F2AE4D;
+}
+
+.startSectionBlock1 {
+    width: 50%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    ;
+    align-items: center;
+    justify-content:  center;
+}
+
+.startSectionMainBlock1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.startSectionTextBlock1 {
+    height: 168px;
+    width: 480px;
+}
+
+.startSectionText1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #011F3A;
+}
+
+
+.startSectionTextBlock2 {
+    width: 277px;
+    height: 48px;
+    margin: 33px 0 14px;
+    line-height: 24px;
+}
+
+
+
+
+.startSectionText2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #011F3A;
+}
+
+.startSectionLinkBlock {
+    width: 228px;
+    height: 56px;
+    background: #3D5675;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.startSectionLink { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    
+}
+
+.startSectionBlock2 {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.startSectionImage {
+    height: 504px;
+    width: 504px;
+}
+
+.certificationsBlocks {
+    display: flex; 
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    
+}
+
+.certificationsBlock1, .certificationsBlock2, .certificationsBlock3 {
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificationBlock1-1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificationBlock1Text, .certificationBlock2Text, .certificationBlock3Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    color: #A1A1A1;
+    width: 110px;
+    margin-left: 16px;
+}
+
+.customizableProductsBlock1 {
+    height: 158px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 332px;
+}
+
+.customizableProds {
+    width: 100%;
+    height: 864.31px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.customizableProductsBlock2 {
+    height: 864.31px;
+    width: 1200px;
+}
+
+.customProdsText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+
+}
+
+.customProdsButton {
+    width: 247px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #3D5675;
+    border-radius: 44px;
+    
+}
+
+.customProdsButtonText {
+    
+    color: #FFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+
+.products1-3, .products4-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product1, .product4, .product5, .product6  {
+    width: 400px;
+    height: 432px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.custProd1, .custProd4, .custProd5, .custProd6  {
+    width: 400px;
+    min-height: 129px;
+    display: flex;
+    justify-content: space-between;      
+}
+
+.custProd2, .custProd3 {
+    width: 400px;
+    min-height: 129px;
+}
+
+.product1-1, .product4-1, .product5-1, .product6-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    padding-top: 45px;
+}
+
+.product1-2, .product4-2, .product5-2, .product6-2    {
+    width: 110px;
+    height: 129px;
+    display: flex;
+    justify-content: right;
+    align-items: center;   
+}
+
+.product1Text, .product4Text, .product5Text , .product6Text {
+    width: 209px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product1Link, .product4Link, .product5Link, .product6Link  {
+    width: 209px; 
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.product1Link-1, .product4Link-1, .product5Link-1, .product6Link-1 {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+}
+
+.product1Text-1, .product4Text-1, .product5Text-1, .product6Text-1        {
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+}
+
+
+
+.product1Price, .product4Price, .product5Price, .product6Price   {
+    width: 100px;
+    color: #A1A1A1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 25px;
+    padding-top: 45px;
+}
+
+.product2Link, .product3Link {
+    height: 65px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    margin-left: 25px;
+    
+}
+
+.product2Link-1, .product3Link-1 {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+    padding-bottom: 4px;
+}
+
+.product2Text, .product3Text {
+    height: 64px; 
+    width: 190px;
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+.product2Text-1, .product3Text-1 {
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+}
+
+.product2, .product3  {
+    width: 400px;
+    height: 432px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 0;
+    
+} 
+
+.customizableProductsBlock3 {
+    width: 100%;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customizableProductsBlock3-1 {
+    height: 44px;
+    width: 385.61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custProds3Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1A1A1;
+}
+
+.custProds3Link {
+    height: 44px;
+    width: 158px;
+    background: #FFFFFF;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.custProds3Link-1 {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #3D5675;
+}
+    </style>
+    <title>Arka</title>
+</head>
+<body>
+<header class="header">
+    <div class="headerBlock1">
+        <a href=""><img src="arka/arkaLogo.png" alt="arkaLogo"></a>
+    </div>
+    <div class="headerBlock2">
+        <a class="headerLinks" href=""> 
+            <img src="arka/starsForHeader.png" alt="starsForHeader"> 
+            <span class="headerStartYourDesign">
+                START YOUR DESIGN
+            </span>
+        </a>   
+        <a class="headerLinks" href="">
+            ALL PRODUCTS
+        </a>
+        <a class="headerLinks" href="">
+            INSPARATION      
+        </a>
+        <a class="headerLinks" href="">
+            <span class="headerAbout">
+                ABOUT               
+            </span> 
+            <img src="arka/VectorheaderArrowImage.png" alt="headerArrowImage">
+        </a>
+    </div>  
+    <div class="headerBlock3">
+        <a class="headerLinks" href="">
+            ACCOUNT            
+        </a>
+        <a href="">
+            <img src="arka/cartLogo.png" alt="cartLogo">
+        </a>
+    </div> 
+</header>
+<section class="content">
+    <div class="startSection">
+        <div class="startSectionBlock1">
+            <div class="startSectionMainBlock1">
+                <div class="startSectionTextBlock1">
+                    <h1 class="startSectionText1">Fast and easy custom boxes your customers will love </h1>
+                </div>
+                <div class="startSectionTextBlock2">
+                    <h2 class="startSectionText2">Fastest turnaround. Best prices instantly. Dieline design help alailable.</h2>
+                </div>
+                <div >
+                    <a  class="startSectionLinkBlock blueButton" href="">
+                        <span  class="startSectionLink blueButtonText" >start your design</span>
+                    </a>
+                </div>  
+            </div>                   
+        </div>
+        <div class="startSectionBlock2">
+            <img src="arka/boxes.png" alt="boxes" class="startSectionImage">
+        </div>
+    </div>  
+    <div class="certificationsBlocks">
+        <div class="certificationsBlock1">
+            <div class="certificationBlock1-1">
+                <img src="arka/RectangleshopifyCertify.png" alt="shopifyCertificate">
+                <span class="certificationBlock1Text">Shopify Integrated</span> 
+            </div>
+        </div>
+        <div class="certificationsBlock2">
+            <img src="arka/RectangleamazonCerticate.png" alt="amazonCertificate">
+            <span  class="certificationBlock2Text">Amazon Certified</span> 
+        </div>
+        <div class="certificationsBlock3">
+            <img src="arka/RectangleecoFriendlyCertificate.png" alt="ecofriendlyCertificate">
+            <span  class="certificationBlock3Text">Eco-Friendly</span> 
+        </div>            
+    </div>
+     <div class="customizableProducts">
+        <div class="customizableProductsBlock1">
+            <span class="customProdsText">Products your can customize </span> 
+            <div>
+                <a class="customProdsButton blueButton" href="">
+                    <span class="customProdsButtonText blueButtonText">browse all products</span>
+                </a>
+            </div>
+        </div>
+        <div class="customizableProds">
+            <div class="customizableProductsBlock2">
+                <div class="products1-3">
+                    <div class="product1">                   
+                        <img class="customazibleProductImage" src="arka/customizableProducts/RectanglecustomCartonBoxes.png" alt="customCartonBoxes">
+                        <div class="custProd1">
+                            <div class="product1-1">
+                                <span class="product1Link"><a class="product1Link-1" href="">Custom Carton Boxes</a></span>
+                                <span class="product1Text"><span class="product1Text-1 ">Create a clean brand presentation with this custom carton box</span></span>
+                            </div>
+                            <div class="product1-2">
+                                <span class="product1Price">Starting at: $10.44/unit</span>
+                            </div>    
+                        </div>                                             
+                    </div>
+                    <div class="product2">
+                        <span><img class="customazibleProdustImage" src="arka/customizableProducts/RectanglecustomBoxes.png" alt="customBoxes"></span>
+                        <div  class="custProd2">
+                            <div class="product2Link">
+                                <a class="product2Link-1" href="">Custom Boxes</a>
+                            </div>
+                            <div class="product2Text">
+                                <span class="product2Text-1">
+                                    A stylish and strong corrugated cardboard box.
+                                </span>
+                            </div>                                                                   
+                        </div>                     
+                    </div>
+                    <div class="product3">
+                        <span><img class="customazibleProdustImage" src="arka/customizableProducts/RectanglecustomPolyMailers.png" alt="polyMailers"></span>
+                        <div  class="custProd3">
+                            <div class="product3Link">
+                                <a class="product3Link-1" href="">Custom Poly Mailers</a>
+                            </div>
+                            <div class="product3Text">
+                                <span class="product3Text-1">
+                                    A fully custom high quality self sealing poly mailer.
+                                </span>
+                            </div>                                                                   
+                        </div> 
+                    </div>
+                </div>
+                <div class="products4-6">
+                    <div class="product4">                   
+                        <img class="customazibleProductImage" src="arka/customizableProducts/RectanglecustomTape.png" alt="customTape">
+                        <div class="custProd4">
+                            <div class="product4-1">
+                                <span class="product4Link"><a class="product4Link-1" href="">Custom Tape</a></span>
+                                <span class="product4Text"><span class="product4Text-1 ">High quality custom tape to seal your shipping boxes during delivery.</span></span>
+                            </div>
+                            <div class="product4-2">
+                                <span class="product4Price">Starting at: $12.16/unit</span>
+                            </div>    
+                        </div>                            
+                    </div>
+                    <div class="product5">
+                        <img class="customazibleProductImage" src="arka/customizableProducts/RectanglecustomStickers.png" alt="customStickers">
+                        <div class="custProd5">
+                            <div class="product5-1">
+                                <span class="product5Link"><a class="product5Link-1" href="">Custom Stickers</a></span>
+                                <span class="product5Text"><span class="product5Text-1 ">Add personality to your packages with custom stickers.</span></span>
+                            </div>
+                            <div class="product5-2">
+                                <span class="product5Price">Starting at: $0.41/unit</span>
+                            </div>    
+                        </div>  
+                    </div>
+                    <div class="product6">
+                        <img class="customazibleProductImage" src="arka/customizableProducts/RectanglecustomTissuePaper.png" alt="tissuePaper">
+                        <div class="custProd6">
+                            <div class="product6-1">
+                                <span class="product6Link"><a class="product6Link-1" href="">Custom Tissue Paper</a></span>
+                                <span class="product6Text"><span class="product6Text-1 ">The perfect addition to branding your package.</span></span>
+                            </div>
+                            <div class="product6-2">
+                                <span class="product6Price">Starting at: $6.54/unit</span>
+                            </div>    
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="customizableProductsBlock3">
+            <div class="customizableProductsBlock3-1">
+               <div class="custProds3Text">Need unbranded stock items?</div> 
+                <div>
+                    <a class="custProds3Link whiteButton" href="">
+                        <span class="custProds3Link-1 ">shop stock</span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="greenBlockSection">
+        <div class="greenBlock">
+            <div class="greenBlock-1">
+                <div class="greenBlock1Text">Fast and easy custom boxes your customers will love</div>
+            </div>
+            <div class="greenBlockImages">
+                <div class="greenBlockImage1">
+                    <img src="arka/greenBlockSection/RectanglegreenBlockImage1.png" alt="greenBlockImage1">
+                    <div class="greenBlockImage1TextBlock1">
+                        <div class="greenBlockImage1Text-1">You Order</div>
+                        <div class="greenBlockImage1Text-2">Design and order boxes in a few clicks.</div>
+                    </div>
+                </div>
+                <div class="greenBlockImage2">
+                    <img src="arka/greenBlockSection/RectanglegreenBlockImage2.png" alt="greenBlockImage2">
+                    <div class="greenBlockImage2TextBlock1">
+                        <div class="greenBlockImage2Text-1">We Proof</div>
+                        <div class="greenBlockImage2Text-2">Approve your designs before production.</div>
+                    </div>
+                </div>
+                <div class="greenBlockImage3">
+                    <img src="arka/greenBlockSection/RectanglegreenBlockImage3.png" alt="greenBlockImage3">
+                    <div class="greenBlockImage3TextBlock1">
+                        <div class="greenBlockImage3Text-1">We Print & Ship</div>
+                        <div class="greenBlockImage3Text-2">Your order gets printed and shipped with tracking.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="greenBlockLink">
+                <div>
+                     <a  class="greenBlockLinkButton blueButton" href="">
+                        <span class="greenBlockLinkText blueButtonText">start your design</span>
+                    </a>
+                 </div>               
+            </div>
+        </div>
+    </div>
+    <div class="theArkaAdvantageSection">
+        <div class="theArkaAdvantageSectionBlocks">
+            <div class="theArkaAdvantageBlock1">
+                <h2 class="theArkaAdvantageBlock1Text">The Arka advantage</h2>
+            </div>
+            <div class="theArkaAdvantageImagesBlock">
+                <div class="theArkaAdvantageImagesBlock1">
+                    <div>
+                        <img  src="arka/theArkaAdvantage/RectangletheArkaAdvantageImage1.png" alt="ArkaAdvantageImage1"></div>
+                    <div class="theArkaAdvantageImagesBlock1-1">
+                        <div class="theArkaAdvantageImagesBlock1Text">Eco-Friendly Material</div>
+                        <div class="theArkaAdvantageImagesBlock1Text-1">Order as little as 10, giving you the lowest minimums in the industry at the best prices.</div>
+                    </div>
+                </div>
+                <div class="theArkaAdvantageImagesBlock2">
+                    <div>
+                        <img src="arka/theArkaAdvantage/RectangletheArkaAdvantageImage2.png" alt="ArkaAdvantageImage2"></div>
+                    <div class="theArkaAdvantageImagesBlock2-1">
+                        <div class="theArkaAdvantageImagesBlock2Text">Full Outside Print</div>
+                        <div class="theArkaAdvantageImagesBlock2Text-1">Design what you want - no extra cost! Prices include 100% exterior print, change design whenever!</div>
+                    </div>
+                </div>
+                <div class="theArkaAdvantageImagesBlock3">
+                    <div>
+                        <img src="arka/theArkaAdvantage/RectangletheArkaAdvantageImage3.png" alt="ArkaAdvantageImage3"></div>
+                    <div class="theArkaAdvantageImagesBlock3-1">
+                        <div class="theArkaAdvantageImagesBlock3Text">Proofing</div>
+                        <div class="theArkaAdvantageImagesBlock3Text-1">After you order, our internal designers help make sure your designs are 100% ready for printing!</div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="yellowBlockSection">
+        <div class="yellowBlockSection-1">
+            <div class="yellowBlocks">
+                <div class="yellowBlock1">
+                    <div>
+                        <img src="arka/yellowBlock/RectangleyellowBlockImage1.png" alt="yellowBlockImage1">
+                    </div>
+                    <div class="yellowBlock1Text">
+                        Couldn't find a size you need?
+                    </div>
+                    <div class="yellowBlock1Text-1">
+                        We`ll work directly with you to create a fully branded packaging system.
+                    </div>
+                    <div>
+                        <a class="yellowBlock1Link yellowButton"  href="">
+                            <span class="yellowBlock1LinkText ">request a quote</span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="yellowBlock2">
+                                  
+                </div>
+                <div class="yellowBlock3">
+                    <div>
+                        <img src="arka/yellowBlock/RectangleyellowBlockImage2.png" alt="yellowBlockImage2">
+                    </div>
+                    <div class="yellowBlock3Text">
+                        Need a free dieline template?
+                    </div>
+                    <div class="yellowBlock3Text-1">
+                        Let us know what size you need and we'll email an Adobe Illustrator dieline to you within 3-4 business days.
+                    </div>
+                    <div>
+                        <a href="" class="yellowBlock3Link yellowButton">
+                            <span class="yellowBlock3LinkText "> request dieline </span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clientFeedbackSection">
+        <div class="feedbackBlock1">
+            <h2 class="feedbackSection-h2">Merchants love Arka</h2>
+        </div>
+       <div class="feedbackBlock2">
+        <div class="feedbackBlock2-1">
+            <div>
+                <img src="arka/feedbackBlock/FramefeedbackBlock.png" alt="feedbackBlock1">
+            </div>
+            <div>
+                <img src="arka/feedbackBlock/FramefeedbackBlock-1.png" alt="feedbackBlock2">
+            </div>
+            <div>
+                <img src="arka/feedbackBlock/FramefeedbackBlock-2.png" alt="feedbackBlock3">
+            </div>
+            <div>
+                <img src="arka/feedbackBlock/FramefeedbackBlock-3.png" alt="feedbackBlock4">
+            </div>
+        </div>
+       </div>
+    </div>
+    <div class="letsGetToItSection">
+        <div class="letsGetToItSectionBlock1">
+            <h2 class="letsGetToItSectionBlock1-h1">Let`s get to it</h2>
+        </div>
+        <div class="letsGetToItSectionBlock2">
+            <div>
+                <a class="letsGetToItSectionBlock2-Link1Button blueButton" href="">
+                    <span class="letsGetToItSectionBlock2-Link1Text ">
+                        start your design
+                    </span>
+                </a>
+            </div>
+            <div>
+                <a class="letsGetToItSectionBlock2-Link2Button whiteButton" href="">
+                    <span class="letsGetToItSectionBlock2-Link2Text ">
+                        browse all products
+                    </span> 
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <span class="footerMainBlock">
+        <div class="footerBlock1">
+            <img src="arka/RectanglefooterLogo.png" alt="footerLogo">
+        </div>
+        <div class="footerBlock2">
+            <ul>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Custom Design</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">All Products</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Inspiration</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Sustainability</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Affiliate Program</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Request Custom Quote</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Request Dieline</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footerBlock3">
+            <ul>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">About Us</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Blog</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Partners</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Contact Us</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">FAQ</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Terms & Conditions</a>
+                </li>
+
+                
+            </ul>
+        </div>
+        <div class="footerBlock4">
+            <ul>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">Shopify App</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">14 Day Free Shopify Trial</a>
+                </li>
+                <li class="footerListItem">
+                    <a class="footerLinks" href="">BigCommerce</a>
+                </li>
+                <li>
+                    <div class="footerLogosBlock">
+                        <a href="">
+                            <img src="arka/footer/RectanglefooterFacebookLogo.png" alt="footerFacebookLogo">
+                        </a>
+                        <a href="">
+                            <img src="arka/footer/RectanglefooterTwitterLogo.png" alt="footerTwitterLogo">
+                        </a>
+                        <a href="">
+                            <img src="arka/footer/RectanglefooterInstagramLogo.png" alt="footerInstagramLogo">
+                        </a>                     
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footerBlock5">
+            <ul>
+                <li  class="footerListItem">
+                    <a class="footerLinks" href="">
+                        Get exclusive offers and tips.
+                    </a>
+                </li>
+                <li>
+                    <input class="footerBlock5Input" type="email" name="email" placeholder="Your email" id="">
+                </li>
+                <li>
+                    <a class="footerBlock5Button blueButton" href="">
+                        <span class="footerBlock5ButtonText">
+                            Join instantly
+                        </span> 
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </span>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

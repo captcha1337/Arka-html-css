@@ -1,0 +1,520 @@
+
+
+
+.greenBlockSection {
+    height: 100%;
+    height: 914px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenBlock {
+    width: 1200px;
+    height: 774px;
+    background-color: #72BDA3;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greenBlock-1 {
+    width: 100%;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.greenBlock1Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: #011F3A;
+    margin-top: 88px;
+}
+
+.greenBlockImages {
+    display: flex;
+    height: 391px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.greenBlockImage1, .greenBlockImage2, .greenBlockImage3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greenBlockImage1TextBlock1 , .greenBlockImage3TextBlock1 {
+    width: 197px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.greenBlockImage2TextBlock1 {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+.greenBlockImage1Text-1, .greenBlockImage2Text-1, .greenBlockImage3Text-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+}
+
+.greenBlockImage1Text-2, .greenBlockImage2Text-2, .greenBlockImage3Text-2 {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #3D5675;
+}
+
+.greenBlockLink {
+    height: 206px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+}
+
+.greenBlockLinkButton {
+    height: 44px;
+    width: 220px;
+    background: #3D5675;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 88px;
+    text-decoration: none;
+}
+
+.greenBlockLinkText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.theArkaAdvantageSection {
+    width: 100%;
+    height: 766px;
+    display: flex;
+    justify-content: center;
+}
+
+.theArkaAdvantageSectionBlocks {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.theArkaAdvantageBlock1 {
+    height: 211px;
+    width: 100%;
+}
+
+.theArkaAdvantageBlock1Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    color: #011F3A;
+    margin-top: 88px;
+    margin-left: 42px;
+}
+
+.theArkaAdvantageImagesBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theArkaAdvantageImagesBlock1, .theArkaAdvantageImagesBlock2, .theArkaAdvantageImagesBlock3 {
+    width: 254px;
+    height: 413px;
+    margin: 0 42px 0;
+}
+
+.theArkaAdvantageImagesBlock1-1, .theArkaAdvantageImagesBlock2-1, .theArkaAdvantageImagesBlock3-1 {
+    width: 250px;
+   
+}
+
+.theArkaAdvantageImagesBlock1Text, .theArkaAdvantageImagesBlock2Text, .theArkaAdvantageImagesBlock3Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.36px;
+    color: #011F3A;
+
+}
+
+.theArkaAdvantageImagesBlock1Text-1, .theArkaAdvantageImagesBlock2Text-1, .theArkaAdvantageImagesBlock3Text-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1A1A1;
+    margin-top: 12px;
+}
+
+
+.yellowBlockSection {
+    width: 100%;
+    height: 730px;
+}
+
+.yellowBlockSection-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.yellowBlocks {
+    width: 1200px;
+    height: 610px;
+    background: #FFCA3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 14px 44px 0px rgba(143, 143, 143, 0.25);
+
+}
+
+.yellowBlock1  {
+    width: 356px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 121px;
+} 
+
+.yellowBlock3 {
+    width: 356px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 121px;
+}
+
+.yellowBlock1Text  {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #011F3A;
+    margin: 24px 0 14px;
+} 
+
+.yellowBlock3Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #011F3A;
+}
+
+.yellowBlock1Text-1, .yellowBlock3Text-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #3D5675;
+    margin-bottom: 10px;
+}
+
+.yellowBlock1Link, .yellowBlock3Link {
+    width: 204px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.yellowBlock1LinkText, .yellowBlock3LinkText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #3D5675;
+}
+
+.yellowBlock2 {
+    height: 410px;
+    width: 1px;
+    box-sizing: border-box;
+    border: rgba(161, 161, 161, 0.4) 0.5px solid ;
+}
+
+.clientFeedbackSection {
+    width: 100%;
+    height: 1548px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feedbackBlock1 {
+    height: 185px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.feedbackSection-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #011F3A;
+    margin-top: 88px;
+}
+
+.feedbackBlock2 {
+    width: 100%;
+    height: 1208px;
+    display: flex;
+    justify-content: center;
+}
+
+.feedbackBlock2-1 {
+    width: 1200px;
+    height: 1208px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 44px rgba(143, 143, 143, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.letsGetToItSection {
+    width: 100%;
+    height: 392px;
+    background: #eee;
+}
+
+.letsGetToItSectionBlock1 {
+    width: 100%;
+    height: 156px;
+    
+}
+
+.letsGetToItSectionBlock1-h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    text-align: center;
+    color: #011F3A;
+    padding-top: 120px;
+}
+
+.letsGetToItSectionBlock2 {
+    width: 100%;
+    height: 236px;
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+.letsGetToItSectionBlock2-Link1Button {
+    height: 44px;
+    width: 220px;
+    border-radius: 44px;
+    background: #3D5675;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5.5px;
+    text-decoration: none;
+}
+
+.letsGetToItSectionBlock2-Link1Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;    
+    letter-spacing: 1.96px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+   
+}
+
+.letsGetToItSectionBlock2-Link2Button {
+    height: 44px;
+    width: 220px;
+    border-radius: 44px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.5px;
+    text-decoration: none;
+}
+
+.letsGetToItSectionBlock2-Link2Text {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    color: #3D5675;
+}
+
+.footer {
+    width: 100%;
+    height: 365px;
+    background-color: #F2F3F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerMainBlock {
+    width: 1200px;
+    height: 245px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBlock1 {
+    height: 24px;
+    width: 85px;
+}
+
+.footerBlock2 {
+    height: 222px;
+    width: 164px;
+}
+
+.footerBlock3 {
+    height: 193px;
+    width: 134px;
+}
+
+.footerBlock4 {
+    height: 129px;
+    width: 170px;
+}
+
+.footerLogosBlock {
+    height: 24px;
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBlock5 {
+    height: 123px;
+    width: 280px;
+}
+
+.footerListItem {
+ 
+    margin-bottom: 17px;
+}
+
+.footerLinks {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3D5675;
+    text-decoration: none;
+}
+
+.footerBlock5Input {
+    border: none;
+    background: #FFFFFF;
+    border-radius: 34px;
+    width: 280px;
+    height: 36px;
+    padding-left: 18px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(61, 86, 117, 0.4);
+    margin-bottom: 12px;
+    }
+
+.footerBlock5Button {
+    height: 44px;
+    width: 220px;
+    border-radius: 44px;
+    background: #3D5675;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.footerBlock5ButtonText {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
